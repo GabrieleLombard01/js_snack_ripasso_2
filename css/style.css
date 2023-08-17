@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+img{
+    object-fit: cover;
+    width: 15vw;
+    max-width: 700px;
+}
+ul li{
+    list-style-type: none;
+}
+.blackboard{
+    margin: auto;
+    background-color: green;
+    border: solid rgb(190, 139, 37) 8px;
+    width: 70vw;
+    height: 80vh;
+    position: relative;
+    padding: 30px;
+}
+#bart{
+    position: absolute;
+    bottom: -65px;
+    right: -80px;
+    cursor: pointer;
+}
+
+.text_container{
+    max-height: 72vh;
+    max-width: 60vw;
+    overflow-y: auto;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 26px;
+}
