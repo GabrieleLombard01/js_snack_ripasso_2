@@ -10,7 +10,7 @@ bart.addEventListener('click', function(){
     console.log(phrase);
 
     // Chiedo all'utente quante volte scrivere
-	const times = parseInt(promt('Quante volte? '));
+	const times = parseInt(prompt('Quante volte? '));
     console.log(times);
 
     // Validazione
@@ -24,10 +24,10 @@ bart.addEventListener('click', function(){
     // Testo da scrivere
     let paragraph = '';
 
-    for (let i = 0; i < times; 1++) {
-		paragraph += '<li>${phrase}</li>';
+    for (let i = 0; i < times; i++) {
+		paragraph += `<li>${phrase}</li>`;
 	}
 
     // Stampo in pagina
-
+    listElement.innerHTML = paragraph;
 });
