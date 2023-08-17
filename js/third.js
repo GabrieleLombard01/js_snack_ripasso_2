@@ -28,4 +28,7 @@ bart.addEventListener('click', function(){
 		listItem.append(name);
 		studentsList.appendChild(listItem);
 	}
+
+    // Stampo in pagina
+    listElement.appendChild(studentsList);
 });
