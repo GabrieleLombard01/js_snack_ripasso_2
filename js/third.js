@@ -20,4 +20,12 @@ bart.addEventListener('click', function(){
     // Logica
     const studentsList = document.createElement('ul'); 
 	studentsList.classList.add('list-unstyle');
+
+    // Ciclo
+    for (let i = 1; i <= numberOfStudents; i++) {
+		const name = prompt('Mi dai il nome dello studente numero ' + i).trim();
+		const listItem = document.createElement('li');
+		listItem.append(name);
+		studentsList.appendChild(listItem);
+	}
 });
