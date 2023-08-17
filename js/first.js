@@ -22,6 +22,12 @@ bart.addEventListener('click', function(){
     alert('Che pizza!');
 
     // Testo da scrivere
-    
+    let paragraph = '';
+
+    for (let i = 0; i < times; 1++) {
+		paragraph += '<li>${phrase}</li>';
+	}
+
+    // Stampo in pagina
 
 });
