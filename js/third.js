@@ -8,4 +8,12 @@ const bart = document.getElementById('bart');
 
 // In ascolto su Bart
 bart.addEventListener('click', function(){
+
+    // Chiedere quanti studenti ci sono
+	const numberOfStudents = parseInt(prompt('Quanti studenti ci sono?', 5));
+
+    // Validazione
+	if (isNaN(numberOfStudents) || numberOfStudents < 1) {
+		return; 
+	}
 });
