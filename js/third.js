@@ -16,4 +16,8 @@ bart.addEventListener('click', function(){
 	if (isNaN(numberOfStudents) || numberOfStudents < 1) {
 		return; 
 	}
+
+    // Logica
+    const studentsList = document.createElement('ul'); 
+	studentsList.classList.add('list-unstyle');
 });
