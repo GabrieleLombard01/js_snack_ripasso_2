@@ -13,4 +13,15 @@ bart.addEventListener('click', function(){
 	const times = parseInt(promt('Quante volte? '));
     console.log(times);
 
+    // Validazione
+	if (!phrase || isNaN(times) || times < 1) {
+		alert('Ciucciati il calzino!');
+		return;
+	}
+
+    alert('Che pizza!');
+
+    // Testo da scrivere
+    
+
 });
